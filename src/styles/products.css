@@ -1,0 +1,38 @@
+.products-section {
+    padding: 1em;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 100%;
+    max-width: 270px;
+    margin: 1rem;
+    height: 300px;
+    padding: 0.65em;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+}
+
+.product-price {
+    font-weight: 500;
+}
+
+.card-header {
+    background-color: #ccc;
+    height: 40%;
+}
+
+.card-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 1em;
+}

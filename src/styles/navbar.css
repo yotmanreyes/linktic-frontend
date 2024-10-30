@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin-bottom: 40px;
+    background-color: #342df2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.navbar .menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar .menu li {
+    margin-right: 20px;
+}
+
+.navbar .menu li img {
+    vertical-align: middle;
+}
+
+.navbar .menu li a {
+    color: #fff;
+}
