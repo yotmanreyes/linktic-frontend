@@ -1,0 +1,32 @@
+.form-container {
+    width: 90%;
+    margin: 4rem auto;
+    max-width: 400px;
+    min-height: 400px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.form-container img {
+    display: block;
+    margin: 1rem auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-block {
+    margin: 1rem 0;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.65em 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
