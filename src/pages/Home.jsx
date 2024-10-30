@@ -1,6 +1,7 @@
 // src/pages/Home.js
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 import CategoryCard from "../components/CategoryCard";
 
 const Home = () => {
@@ -31,7 +32,8 @@ const Home = () => {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <div>
+    <>
+      <Navbar />
       <div className="home">
         <h1>Linktic Ecommerce</h1>
         <Link to="/products">Todos Los Productos</Link>
@@ -41,7 +43,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

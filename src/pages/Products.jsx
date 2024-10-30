@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Navbar from "../components/Navbar";
 import "../styles/products.css";
 
 const Products = () => {
@@ -37,27 +38,32 @@ const Products = () => {
   }
 
   return (
-    <section className="products-section">
-      <h1>Todos los Productos</h1>
-      {products.length === 0 ? (
-        <p>No hay productos disponibles.</p>
-      ) : (
-        <div className="products-list">
-          {products.map((product) => (
-            <article className="product-card" key={product.id}>
-              <div className="card-header">
-                <img src={product.image_url} alt="" srcset="" />
-              </div>
-              <div className="card-content">
-                <h3>{product.name}</h3>
-                <p className="product-price">Precio: {product.price} $</p>
-                <button className="btn">Añadir al carrito</button>
-              </div>
-            </article>
-          ))}
-        </div>
-      )}
-    </section>
+    <>
+      <Navbar />
+
+      <section className="products-section">
+        <h1>Todos los Productos</h1>
+        {products.length === 0 ? (
+          <p>No hay productos disponibles.</p>
+        ) : (
+          <div className="products-list">
+            {products.map((product) => (
+              <article className="product-card" key={product.id}>
+                <div className="card-header">
+                  <img src={product.image_url} alt="" srcset="" />
+                </div>
+                <div className="card-content">
+                  <h3>{product.name}</h3>
+                  <p className="product-price">Precio: {product.price} $</p>
+                  <p>{product.category.name}</p>
+                  <button className="btn">Añadir al carrito</button>
+                </div>
+              </article>
+            ))}
+          </div>
+        )}
+      </section>
+    </>
   );
 };
 

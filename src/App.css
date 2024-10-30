@@ -3,6 +3,7 @@
 *::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -57,10 +58,22 @@ body {
 }
 
 .btn {
+  display: inline-block;
   padding: .65em 1em;
   background-color: #fff;
   border: 1px solid currentColor;
   margin: 1rem 0;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #342df2;
 }
 
 .read-the-docs {
