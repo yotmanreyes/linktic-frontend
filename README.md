@@ -18,24 +18,24 @@ Aquí hay algunas capturas de pantalla que muestran la interfaz del eCommerce:
 
 ### Pantalla Principal
 
-![Pantalla Principal](https://postimg.cc/dLbpgK2k)
+![Pantalla Principal](https://i.postimg.cc/SxR42Sjr/image.png)
 
 ### Todos los Productos
 
-![Todos los Productos](https://postimg.cc/WDnyDFQg)
+![Todos los Productos](https://i.postimg.cc/yd4Cb0jQ/image.png)
 
 ### Sign In/Sign Out
 
-![Sign In](https://postimg.cc/Pp5R1fjc)
-![Sign Out](https://postimg.cc/DJpY6Vfz)
+![Sign In](https://i.postimg.cc/rm12XzY8/image.png)
+![Sign Out](https://i.postimg.cc/T1TMRGZn/image.png)
 
 ### Admin Dashboard
 
-![Admin Dashboard](https://postimg.cc/5jthCgK0)
+![Admin Dashboard](https://i.postimg.cc/fyyC7rd6/image.png)
 
 ### Crear Producto
 
-![Crear Producto](https://postimg.cc/wtpKRd38)
+![Crear Producto](https://i.postimg.cc/9f4cSmhM/image.png)
 
 ## Requisitos
 
