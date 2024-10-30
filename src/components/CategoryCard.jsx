@@ -8,9 +8,8 @@ const CategoryCard = ({ category }) => {
       <img src={category.feature_image} alt="" />
       <div className="content">
         <h3>{category.name}</h3>
-        <p>{category.description}</p>
       </div>
-      <Link className="card-link" to={`/category/${category.id}`}>
+      <Link className="card-link" to={`/categories/${category.id}/products`}>
         Ver Productos
       </Link>
     </article>
