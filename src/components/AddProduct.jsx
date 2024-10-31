@@ -22,18 +22,19 @@ const AddProduct = ({ isOpen, onClose }) => {
           <span className="close" onClick={onClose}>
             &times;
           </span>
-          <h2>Agregar Producto</h2>
-          <form onSubmit={handleSubmit}>
-            <div>
+          <h2 className="text-center">Agregar Producto</h2>
+          <form className="form-container" onSubmit={handleSubmit}>
+            <div className="form-block">
               <label>Nombre:</label>
               <input
                 type="text"
+                className="form-control"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
               />
             </div>
-            <div>
+            <div className="form-block">
               <label>Descripción:</label>
               <textarea
                 value={description}
@@ -41,16 +42,17 @@ const AddProduct = ({ isOpen, onClose }) => {
                 required
               />
             </div>
-            <div>
+            <div className="form-block">
               <label>Precio:</label>
               <input
+                className="form-control"
                 type="number"
                 value={price}
                 onChange={(e) => setPrice(e.target.value)}
                 required
               />
             </div>
-            <div>
+            <div className="form-block">
               <label>Categoría:</label>
               <select
                 value={category}
@@ -64,16 +66,19 @@ const AddProduct = ({ isOpen, onClose }) => {
                 <option value="accessories">Accesorios</option>
               </select>
             </div>
-            <div>
+            <div className="form-block">
               <label>Imagen:</label>
               <input
+                className="form-control"
                 type="file"
                 accept="image/*"
                 onChange={(e) => setImage(e.target.files[0])}
                 required
               />
             </div>
-            <button type="submit">Agregar Producto</button>
+            <button className="btn btn-primary btn-block" type="submit">
+              Agregar Producto
+            </button>
           </form>
         </div>
       </div>
